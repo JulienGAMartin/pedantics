@@ -1,6 +1,5 @@
 useDynLib(pedantics, .registration = TRUE)
 import(MCMCglmm)
-import(MasterBayes)
 import(grid)
 import(kinship2)
 import(genetics)
@@ -14,6 +13,7 @@ importFrom("utils", "flush.console")
 importFrom("mvtnorm","rmvnorm")
 importFrom("grDevices", "savePlot")
 export(
+  extractA,
 drawPedigree,
 fixPedigree,
 fpederr,

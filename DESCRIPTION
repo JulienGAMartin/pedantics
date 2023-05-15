@@ -4,7 +4,12 @@ Title: Functions to Facilitate Power and Sensitivity Analyses for
         Genetic Studies of Natural Populations
 Version: 1.7
 Date: 2018-04-18
-Depends: R (>= 2.4.0), MasterBayes, MCMCglmm, kinship2, grid, genetics
+Depends: 
+    R (>= 2.10),
+    MCMCglmm,
+    kinship2,
+    grid,
+    genetics
 Imports: mvtnorm
 Author: Michael Morrissey
 Maintainer: Michael Morrissey <michael.morrissey@st-andrews.ac.uk>
@@ -15,3 +20,4 @@ Packaged: 2018-04-18 11:47:06 UTC; michael
 Repository: CRAN
 Date/Publication: 2018-04-18 14:23:57 UTC
 NeedsCompilation: yes
+LazyData: true
