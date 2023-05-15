@@ -12,7 +12,7 @@ Depends:
     genetics
 Imports: mvtnorm
 Author: Michael Morrissey
-Maintainer: Michael Morrissey <michael.morrissey@st-andrews.ac.uk>
+Maintainer: Michael Morrissey <michael.morrissey@st-andrews.ac.uk>, forked by Julien Martin <julien.martin@uottawa.ca>
 Description: Functions for sensitivity and power analysis, for calculating statistics describing pedigrees from wild populations, and for viewing pedigrees.
 License: GPL-2 | GPL-3
 LazyLoad: yes
